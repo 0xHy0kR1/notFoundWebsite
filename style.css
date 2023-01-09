@@ -16,5 +16,33 @@ section{
     flex-direction: column;
 }
 .numberAndBgGif{
-    background-image: url();
+    background: url('notFoundImg.jpg') center center / cover no-repeat;
+    height: 272px;
+    width: 272px;
+    border: 2px solid blue;
+}
+.infoAboutPage{
+    text-align: center;
+    border: 2px solid yellow;
+    width: 272px;
+    height: 272px;
+}
+.info1{
+    font-size: 26px;
+    margin-top: 13px;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #890bff;
+}
+.info2{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.infoAboutPage a{
+    text-decoration: none;
+    color: white;
+    background: green;
+    padding: 11px;
 }
