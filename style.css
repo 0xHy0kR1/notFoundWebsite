@@ -1,48 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 body{
     margin: 0;
     padding: 0;
 }
-.container{
-    border: 2px solid red;
-}
-section{
-    border: 2px solid black;
-}
 .row{
-    border: 2px solid green;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.numberAndBgGif{
+.imageNotFound{
     background: url('notFoundImg.jpg') center center / cover no-repeat;
-    height: 272px;
-    width: 272px;
-    border: 2px solid blue;
+    height: 336px;
+    width: 403px;
+    margin: 22px;
 }
 .infoAboutPage{
     text-align: center;
-    border: 2px solid yellow;
     width: 272px;
     height: 272px;
 }
 .info1{
-    font-size: 26px;
+    font-size: 29px;
     margin-top: 13px;
     padding: 0px;
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 0px;
     color: #890bff;
+    font-family: 'Ubuntu', sans-serif;
 }
 .info2{
-    font-size: 12px;
-    margin-top: 5px;
+    font-size: 13px;
+    margin-top: 8px;
+    margin-bottom: 37px;
+    font-family: 'Ubuntu', sans-serif;
 }
-.infoAboutPage a{
+.buttonToHome{
     text-decoration: none;
     color: white;
-    background: green;
-    padding: 11px;
+    background: #00af00c7;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 18px;
+    padding-left: 18px;
 }
